@@ -1,0 +1,218 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uv-line[data-v-dcf8cb8f] {
+  vertical-align: middle;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+uni-view[data-v-222d1a38], uni-scroll-view[data-v-222d1a38], uni-swiper-item[data-v-222d1a38] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.uv-divider[data-v-222d1a38] {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+}
+.uv-divider__text[data-v-222d1a38] {
+  margin: 0 15px;
+}
+.uv-divider__dot[data-v-222d1a38] {
+  font-size: 12px;
+  margin: 0 12px;
+  color: #c0c4cc;
+}
+
+.out{
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	background-image: ../../static/back;
+}
+.record1{
+	width: 23.4375rem;
+	height: 40%;
+	z-index: 3;
+}
+.history{
+	border:0.15625rem solid #B082A4;
+	width: 4.6875rem;
+	height: 1.40625rem;
+	border-radius: 0.78125rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.record{
+	width: 23.4375rem;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.recordButton{
+	border-radius: 50%;
+	height: 6.25rem;
+	width: 6.25rem;
+	position: absolute;
+	padding: 0;
+	z-index: 5;
+	background-color: none !important;
+	background: none !important;
+	border: none !important;
+&::after {
+		border: none;
+}
+}
+.circle1{
+	width: 9.0625rem;
+	height: 9.0625rem;
+	position: absolute;
+	border-radius: 50%;
+	background: rgb(74, 64, 99);
+	z-index: 4;
+}
+.circle2{
+	width: 10rem;
+	height: 10rem;
+	position: absolute;
+	border-radius: 50%;
+	background: rgb(165, 139, 166);
+	z-index: 3;
+}
+.wave{
+	width: 9.375rem;
+	height: 9.375rem;
+	position: absolute;
+	box-shadow: 3px 3px 9px #CB99C0, -3px -3px 9px #ECF0F8;
+	border-radius: 50%;
+	filter: blur(1px);
+	z-index: 2;
+}
+.image-bg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.popup {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 9998;
+}
+.popup-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	width: 14.0625rem;
+	padding: 1.25rem;
+	border-radius: 0.625rem;
+	background: linear-gradient(to bottom, #FFF, #EF96C5);
+	z-index: 9999;
+}
+.info-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.hints{
+	margin-bottom: 1.5625rem;
+	color: #777;
+	font-size: 0.78125rem;
+}
+@keyframes wavemove {
+0% {
+            transform: scale(1);
+			opacity: 0;
+}
+50% {
+            transform: scale(1.5);
+            opacity: 1;
+}
+100% {
+            transform: scale(2);
+            opacity: 0;
+}
+}
+@keyframes wavemove1 {
+0% {
+            transform: scale(1);
+			opacity: 0;
+}
+50% {
+            transform: scale(1.5);
+            opacity: 1;
+}
+100% {
+            transform: scale(2);
+            opacity: 0;
+}
+}

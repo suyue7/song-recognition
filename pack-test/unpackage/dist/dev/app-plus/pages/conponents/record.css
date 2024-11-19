@@ -1,0 +1,39 @@
+
+.single{
+	height: 4.375rem;
+	width: 21.25rem;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 0.78125rem;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 0.9375rem;
+}
+.disk{
+	width: 3.125rem;
+	height: 3.125rem;
+	border-radius: 0.625rem;
+	position: absolute;
+	margin-top: 0.625rem;
+	margin-left: 0.625rem;
+}
+.title{
+	font-size: 1.40625rem;
+	position: absolute;
+	margin-top: 0.625rem;
+	margin-left: 4.375rem;
+	color: rgba(107, 87, 87, 0.8);
+}
+.subtitle{
+	font-size: 0.9375rem;
+	position: absolute;
+	margin-top: 2.65625rem;
+	margin-left: 4.375rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+.time{
+	position: absolute;
+	margin-top: 2.65625rem;
+	margin-left: 15.625rem;
+	font-size: 0.78125rem;
+	color: #C2BABA;
+}
+

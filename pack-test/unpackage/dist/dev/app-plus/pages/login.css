@@ -1,0 +1,50 @@
+
+.image-bg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.content-wrapper{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	width: 23.4375rem;
+	z-index: 2;
+}
+.space2{
+	z-index: 3;
+	width: 23.4375rem;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.inputBox{
+	padding-left: 0.9375rem;
+	width: 19.6875rem;
+	height: 2.5rem;
+	background-color: rgba(255,255,255,0.7);
+	margin-bottom: 0.9375rem;
+	border-radius: 0.46875rem;
+}
+.loginButton{
+	width: 20rem;
+	height: 2.8125rem;
+	background-color: #4A4063;
+	border-radius: 0.9375rem;
+	color: #FFF;
+	margin-bottom: 0.9375rem;
+}
+.mid{
+	width: 20rem;
+	margin-bottom: 5.3125rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
